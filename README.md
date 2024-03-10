@@ -150,7 +150,7 @@ If be inherited from MainResult
         }
     }
 ```
-And create mapper that implements WeatherCurrentMainMapper
+And create mapper that implements MainMapper
 ```java
 private class CustomMapper implements MainMapper<CustomWeather, WeatherApiDto> {
 
